@@ -52,6 +52,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     qmark.addEventListener("click", function() {
-        window.open("https://github.com/avunit1/avunit.tk/blob/main/license.txt", "_blank");
+        window.open("https://github.com/avunit1/webpage-main/blob/main/license.txt", "_blank");
     });
 });
