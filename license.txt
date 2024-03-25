@@ -1,0 +1,29 @@
+Website Source Code License
+
+This License Agreement ("Agreement") is entered into between avunit (AUTHOR), and any person or entity who obtains a copy of the source code associated with this Agreement.
+
+1. Grant of License: The Author hereby grants the User a non-exclusive, worldwide, royalty-free, perpetual license to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the terms and conditions set forth herein.
+
+2. Conditions of Use:
+   a. Attribution: The User agrees to provide clear and visible attribution to the Author on every page where the Software or derivative works thereof are utilized. The attribution must include the Author's name and a link to the original source repository.
+   b. Redistribution: Redistributions in source code form must retain the above copyright notice, this list of conditions, and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Restrictions: The User shall not remove or alter any copyright, trademark, or other proprietary notices contained in the Software.
+
+4. No Endorsement: The User agrees not to use the name, trademarks, or logos of the Author for endorsement, promotion, or marketing purposes without prior written consent.
+
+5. Disclaimer of Warranty: The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. The Author makes no representations or warranties regarding the accuracy, reliability, or suitability of the Software.
+
+6. Limitation of Liability: In no event shall the Author be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) arising in any way out of the use, reproduction, modification, or distribution of the Software, even if advised of the possibility of such damage.
+
+7. Termination: This Agreement shall terminate automatically if the User fails to comply with any of its terms and conditions. Upon termination, the User must cease all use of the Software and destroy all copies in their possession.
+
+8. Governing Law: This Agreement shall be governed by and construed in accordance with the laws of [Your Country], without regard to its conflict of law provisions.
+
+9. Entire Agreement: This Agreement constitutes the entire understanding and agreement between the Author and the User concerning the subject matter herein and supersedes all prior agreements and understandings, whether written or oral.
+
+10. Contact Information: For any inquiries regarding this Agreement or its terms, please contact the Author at [your contact information].
+
+By downloading, installing, or using the Software, the User acknowledges that they have read, understood, and agree to be bound by the terms and conditions of this Agreement.
+
+avunit; privacc587@gmail.com
