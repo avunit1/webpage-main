@@ -1,6 +1,6 @@
 @font-face {
     font-family: "CustomFont";
-    src: url("font.otf") format("opentype");
+    src: url("font3.otf") format("opentype");
 }
 
 body {
@@ -13,6 +13,28 @@ body {
     align-items: center;
     height: 100vh;
     color: #eeeeee; /* Text color */
+}
+
+.title2 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -1300%);
+    font-size: 3vh;
+    font-family: "CustomFont", sans-serif;
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: fadeIn 0.4s ease-in-out 0.4s forwards; /* Animation for fading in */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start opacity */
+        transform: translate(-50%, -1300%); /* Start position */
+    }
+    to {
+        opacity: 1; /* End opacity */
+        transform: translate(-50%, -1300%); /* End position */
+    }
 }
 
 .container {
@@ -28,13 +50,14 @@ body {
 
 #footer {
     position: absolute;
-    bottom: -42.5vh; /* 7.5% above the bottom edge */
+    bottom: -32.1vh; /* 7.5% above the bottom edge */
     left: 50%;
     transform: translateX(-50%);
     display: flex; /* Use flexbox to align items */
     align-items: center; /* Center vertically */
     text-align: center; /* Center text horizontally */
     font-family: "CustomFont", sans-serif;
+    font-size: 1.5vh;
 }
 
 .qmark {
@@ -59,24 +82,25 @@ body {
 
 .button-container {
     position: absolute;
-    top: 140%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .button {
-    width: 35vh; /* 20% of viewport height */
+    width: 50vh; /* 20% of viewport height */
     height: 8vh; /* 5% of viewport height */
     margin-bottom: 10px; /* Add some spacing between buttons */
     background-color: #31363F; /* Background color */
     color: #76ABAE; /* Text color */
     border: 5px solid #76ABAE; /* Border */
     border-radius: 20px; /* Border radius */
-    font-size: 24px; /* Adjust font size as needed */
+    font-size: 2.75vh; /* Adjust font size as needed */
+    text-align: center;
     font-family: "CustomFont", sans-serif; /* Use the custom font with fallback to sans-serif */
     transition: background-color 0.5s, color 0.5s; /* Transition on background color and text color */
 }
