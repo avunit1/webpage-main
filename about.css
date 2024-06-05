@@ -17,13 +17,13 @@ body {
 
 .title2 {
     position: absolute;
-    top: 0%;
+    top: 125vh;
     left: 50%;
     transform: translate(-50%, -1300%);
     font-size: 3vh;
     font-family: "CustomFont", sans-serif;
-    opacity: 0; /* Initially set opacity to 0 */
-    animation: fadeIn 0.4s ease-in-out 0.4s forwards; /* Animation for fading in */
+    color: #DC5F00;
+    text-align: center;
 }
 
 @keyframes fadeIn {
@@ -50,7 +50,7 @@ body {
 
 #footer {
     position: absolute;
-    bottom: -33vh; /* 7.5% above the bottom edge */
+    bottom: -4vh; /* 7.5% above the bottom edge */
     left: 50%;
     transform: translateX(-50%);
     display: flex; /* Use flexbox to align items */
@@ -92,14 +92,14 @@ body {
 }
 
 .button {
-    width: 40vh; /* 20% of viewport height */
+    width: 50vh; /* 20% of viewport height */
     height: 8vh; /* 5% of viewport height */
     margin-bottom: 10px; /* Add some spacing between buttons */
     background-color: #373A40; /* Background color */
     color: #DC5F00; /* Text color */
     border: 5px solid #DC5F00; /* Border */
     border-radius: 20px; /* Border radius */
-    font-size: 2.38vh; /* Adjust font size as needed */
+    font-size: 2.75vh; /* Adjust font size as needed */
     text-align: center;
     font-family: "CustomFont", sans-serif; /* Use the custom font with fallback to sans-serif */
     transition: background-color 0.5s, color 0.5s; /* Transition on background color and text color */
@@ -110,5 +110,18 @@ body {
     color: #373A40; /* Text color on hover */
     border: 5px solid #373A40; /* Border */
     cursor: pointer;
+}
+
+p {
+    font-family: "CustomFont", sans-serif; /* Use the custom font with fallback to sans-serif */
+    font-size: 3vh; /* Adjust font size as needed */
+    width: 90vw;
+    top: 50%;
+    left: 50%;
+    overflow-y: auto;
+    max-height: 60vh;
+    border: 2px solid #DC5F00;
+    border-radius: 20px;
+    padding: 10px;
 }
 

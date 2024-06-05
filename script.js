@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to animate the logo to the center and rotate simultaneously
     function animateLogo() {
-        logo.style.transform = "translateY(-35vh) rotate(0deg)";
+        logo.style.transform = "translateY(-38vh) rotate(0deg)";
     }
 
     // Trigger the animation after a short delay to allow the page to render
@@ -27,6 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(toggleQMarkColor, 350);
 
     // Add event listeners to all buttons
+    document.getElementById("about").addEventListener("click", function() {
+        window.location.href = "/about.html"; // Redirect to the About page
+    });
+
     document.getElementById("github-main").addEventListener("click", function() {
         window.open("https://github.com/avunit1", "_blank");
     });
@@ -52,6 +56,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     qmark.addEventListener("click", function() {
-        window.open("https://github.com/avunit1/webpage-main/blob/main/license.txt", "_blank");
+        window.open("https://www.gnu.org/licenses/gpl-3.0.en.html", "_blank");
     });
 });
