@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Add event listeners to all buttons
     document.getElementById("about").addEventListener("click", function() {
-        window.location.href = "/about.html"; // Redirect to the About page
+        window.location.href = "https://avunit1.github.io/webpage-main/about.html"; // Redirect to the About page
     });
 
     document.getElementById("github-main").addEventListener("click", function() {
