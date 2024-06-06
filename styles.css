@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #eeeeee; /* Text color */
+    color: #eeeeee;
 }
 
 .title2 {
@@ -22,18 +22,18 @@ body {
     transform: translate(-50%, -1300%);
     font-size: 3vh;
     font-family: "CustomFont", sans-serif;
-    opacity: 0; /* Initially set opacity to 0 */
-    animation: fadeIn 0.4s ease-in-out 0.4s forwards; /* Animation for fading in */
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in-out 0.4s forwards;
 }
 
 @keyframes fadeIn {
     from {
-        opacity: 0; /* Start opacity */
-        transform: translate(-50%, -1300%); /* Start position */
+        opacity: 0;
+        transform: translate(-50%, -1300%);
     }
     to {
-        opacity: 1; /* End opacity */
-        transform: translate(-50%, -1300%); /* End position */
+        opacity: 1;
+        transform: translate(-50%, -1300%);
     }
 }
 
@@ -42,26 +42,26 @@ body {
 }
 
 #logo {
-    width: 10vh; /* 125px at 2560x1440 resolution is approximately 10vh */
-    height: 10vh; /* 125px at 2560x1440 resolution is approximately 10vh */
-    transform: translateY(-70vh) rotate(180deg); /* Initial position 30vh below the center with rotation */
-    transition: transform 0.35s ease-out; /* Smooth animation duration changed to 350ms */
+    width: 10vh;
+    height: 10vh;
+    transform: translateY(-70vh) rotate(180deg);
+    transition: transform 0.35s ease-out;
 }
 
 #footer {
     position: absolute;
-    bottom: -33vh; /* 7.5% above the bottom edge */
+    bottom: -33vh;
     left: 50%;
     transform: translateX(-50%);
-    display: flex; /* Use flexbox to align items */
-    align-items: center; /* Center vertically */
-    text-align: center; /* Center text horizontally */
+    display: flex;
+    align-items: center;
+    text-align: center;
     font-family: "CustomFont", sans-serif;
     font-size: 1.5vh;
 }
 
 .qmark {
-    margin-left: 0px; /* Adjust spacing between the copyright text and question mark */
+    margin-left: 0px;
     transition: color 0.35s ease;
 }
 
@@ -74,7 +74,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: -42.5vh; /* 7.5% above the bottom edge */
+    bottom: -42.5vh;
     left: 50%;
     transform: translateX(-50%);
     font-family: "CustomFont", sans-serif;
@@ -92,23 +92,23 @@ body {
 }
 
 .button {
-    width: 40vh; /* 20% of viewport height */
-    height: 8vh; /* 5% of viewport height */
-    margin-bottom: 10px; /* Add some spacing between buttons */
-    background-color: #373A40; /* Background color */
-    color: #DC5F00; /* Text color */
-    border: 5px solid #DC5F00; /* Border */
-    border-radius: 20px; /* Border radius */
-    font-size: 2.38vh; /* Adjust font size as needed */
+    width: 40vh;
+    height: 8vh;
+    margin-bottom: 10px;
+    background-color: #373A40;
+    color: #DC5F00; 
+    border: 5px solid #DC5F00;
+    border-radius: 20px; 
+    font-size: 2.38vh; 
     text-align: center;
-    font-family: "CustomFont", sans-serif; /* Use the custom font with fallback to sans-serif */
-    transition: background-color 0.5s, color 0.5s; /* Transition on background color and text color */
+    font-family: "CustomFont", sans-serif; 
+    transition: background-color 0.5s, color 0.5s; 
 }
 
 .button:hover {
-    background-color: #DC5F00; /* Background color on hover */
-    color: #373A40; /* Text color on hover */
-    border: 5px solid #373A40; /* Border */
+    background-color: #DC5F00; 
+    color: #373A40; 
+    border: 5px solid #373A40; 
     cursor: pointer;
 }
 

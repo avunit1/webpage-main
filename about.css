@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #eeeeee; /* Text color */
+    color: #eeeeee;
 }
 
 .title2 {
@@ -28,12 +28,12 @@ body {
 
 @keyframes fadeIn {
     from {
-        opacity: 0; /* Start opacity */
-        transform: translate(-50%, -1300%); /* Start position */
+        opacity: 0;
+        transform: translate(-50%, -1300%); 
     }
     to {
-        opacity: 1; /* End opacity */
-        transform: translate(-50%, -1300%); /* End position */
+        opacity: 1; 
+        transform: translate(-50%, -1300%); 
     }
 }
 
@@ -43,27 +43,27 @@ body {
 
 #footer {
     position: absolute;
-    bottom: -4vh; /* 7.5% above the bottom edge */
+    bottom: -4vh; 
     left: 50%;
     transform: translateX(-50%);
-    display: flex; /* Use flexbox to align items */
-    align-items: center; /* Center vertically */
-    text-align: center; /* Center text horizontally */
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
     font-family: "CustomFont", sans-serif;
     font-size: 1.5vh;
 }
 
 #mylogo {
-    width: 10vh; /* Adjust as needed */
-    height: 10vh; /* Adjust as needed */
+    width: 10vh; 
+    height: 10vh; 
     position: absolute;
     top: -10%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the logo */
+    transform: translate(-50%, -50%);
 }
 
 .qmark {
-    margin-left: 0px; /* Adjust spacing between the copyright text and question mark */
+    margin-left: 0px; 
     transition: color 0.35s ease;
 }
 
@@ -76,7 +76,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: -42.5vh; /* 7.5% above the bottom edge */
+    bottom: -42.5vh; 
     left: 50%;
     transform: translateX(-50%);
     font-family: "CustomFont", sans-serif;
@@ -94,29 +94,29 @@ body {
 }
 
 .button {
-    width: 50vh; /* 20% of viewport height */
-    height: 8vh; /* 5% of viewport height */
-    margin-bottom: 10px; /* Add some spacing between buttons */
-    background-color: #373A40; /* Background color */
-    color: #DC5F00; /* Text color */
-    border: 5px solid #DC5F00; /* Border */
-    border-radius: 20px; /* Border radius */
-    font-size: 2.75vh; /* Adjust font size as needed */
+    width: 50vh; 
+    height: 8vh; 
+    margin-bottom: 10px; 
+    background-color: #373A40; 
+    color: #DC5F00; 
+    border: 5px solid #DC5F00; 
+    border-radius: 20px; 
+    font-size: 2.75vh; 
     text-align: center;
-    font-family: "CustomFont", sans-serif; /* Use the custom font with fallback to sans-serif */
-    transition: background-color 0.5s, color 0.5s; /* Transition on background color and text color */
+    font-family: "CustomFont", sans-serif; 
+    transition: background-color 0.5s, color 0.5s; 
 }
 
 .button:hover {
-    background-color: #DC5F00; /* Background color on hover */
-    color: #373A40; /* Text color on hover */
-    border: 5px solid #373A40; /* Border */
+    background-color: #DC5F00; 
+    color: #373A40; 
+    border: 5px solid #373A40; 
     cursor: pointer;
 }
 
 p {
-    font-family: "CustomFont", sans-serif; /* Use the custom font with fallback to sans-serif */
-    font-size: 3vh; /* Adjust font size as needed */
+    font-family: "CustomFont", sans-serif; 
+    font-size: 3vh; 
     width: 90vw;
     top: 50%;
     left: 50%;
