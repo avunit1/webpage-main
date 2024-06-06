@@ -41,13 +41,6 @@ body {
     position: relative;
 }
 
-#logo {
-    width: 10vh; /* 125px at 2560x1440 resolution is approximately 10vh */
-    height: 10vh; /* 125px at 2560x1440 resolution is approximately 10vh */
-    transform: translateY(-70vh) rotate(180deg); /* Initial position 30vh below the center with rotation */
-    transition: transform 0.35s ease-out; /* Smooth animation duration changed to 350ms */
-}
-
 #footer {
     position: absolute;
     bottom: -4vh; /* 7.5% above the bottom edge */
@@ -58,6 +51,15 @@ body {
     text-align: center; /* Center text horizontally */
     font-family: "CustomFont", sans-serif;
     font-size: 1.5vh;
+}
+
+#mylogo {
+    width: 10vh; /* Adjust as needed */
+    height: 10vh; /* Adjust as needed */
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the logo */
 }
 
 .qmark {
